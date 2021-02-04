@@ -1,0 +1,249 @@
+[
+    {
+        "name": "King Shan",
+        "spouse": "Queen Anga",
+        "children": [
+            {
+                "name": "Chit",
+                "gender": "M"
+            }, 
+            {
+                "name": "Ish",
+                "gender": "M"
+            },
+            {
+                "name": "Vich",
+                "gender": "M"
+            },
+            {
+                "name": "Aras",
+                "gender": "M"
+            },
+            {
+                "name": "Satya",
+                "gender": "F"
+            }
+        ],
+        "parent": null,
+        "gender": "M"
+    },
+    {
+        "name": "Chit",
+        "spouse": "Amba",
+        "children": [
+            {
+                "name": "Dritha",
+                "gender": "F"
+            }, 
+            {
+                "name": "Tritha",
+                "gender": "F"
+            }, 
+            {
+                "name": "Vritha",
+                "gender": "M"
+            }
+        ],
+        "parent": "King Shan",
+        "gender": "M"
+    },
+    {
+        "name": "Ish",
+        "spouse": null,
+        "children": null,
+        "parent": "King Shan",
+        "gender": "M"
+    },
+    {
+        "name": "Vich",
+        "spouse": "Lika",
+        "children": [
+            {
+                "name": "Vila",
+                "gender": "F"
+            }, 
+            {
+                "name": "Chika",
+                "gender": "F"
+            }
+        ],
+        "parent": "King Shan",
+        "gender": "M"
+    },
+    {
+        "name": "Aras",
+        "spouse": "Chitra",
+        "children": [
+            {
+                "name": "Jnki",
+                "gender": "F"
+            }, 
+            {
+                "name": "Ahit",
+                "gender": "M"
+            }
+        ],
+        "parent": "King Shan",
+        "gender": "M"
+    },
+    {
+        "name": "Satya",
+        "spouse": "Vyan",
+        "children": [
+            {
+                "name": "Asva",
+                "gender": "M"
+            }, 
+            {
+                "name": "Vyas",
+                "gender": "M"
+            }, 
+            {
+                "name": "Atya",
+                "gender": "F"
+            }
+        ],
+        "parent": "King Shan",
+        "gender": "F"
+    },
+    {
+        "name": "Dritha",
+        "spouse": "Jaya",
+        "children": [
+            {
+                "name": "Yodhan",
+                "gender": "M"
+            }
+        ],
+        "parent": "Chit",
+        "gender": "F"
+    },
+    {
+        "name": "Tritha",
+        "spouse": null,
+        "children": null,
+        "parent": "Chit",
+        "gender": "F"
+    },
+    {
+        "name": "Vritha",
+        "spouse": null,
+        "children": null,
+        "parent": "Chit",
+        "gender": "M"
+    },
+    {
+        "name": "Vila",
+        "spouse": null,
+        "children": null,
+        "parent": "Vich",
+        "gender": "F"
+    },
+    {
+        "name": "Chika",
+        "spouse": null,
+        "children": null,
+        "parent": "Vich",
+        "gender": "F"
+    },
+    {
+        "name": "Jnki",
+        "spouse": "Arit",
+        "children": [
+            {
+                "name": "Laki",
+                "gender": "M"
+            }, 
+            {
+                "name": "Lavanya",
+                "gender": "F"
+            }
+        ],
+        "parent": "Aras",
+        "gender": "F"
+    },
+    {
+        "name": "Ahit",
+        "spouse": null,
+        "children": null,
+        "parent": "Aras",
+        "gender": "M"
+    },
+    {
+        "name": "Asva",
+        "spouse": "Satvy",
+        "children": [
+            {
+                "name": "Vasa",
+                "gender": "M"
+            }
+        ],
+        "parent": "Satya",
+        "gender": "M"
+    },
+    {
+        "name": "Vyas",
+        "spouse": "Krpi",
+        "children": [
+            {
+                "name": "Kriya",
+                "gender": "M"
+            }, 
+            {
+                "name": "Krithi",
+                "gender": "F"
+            }
+        ],
+        "parent": "Satya",
+        "gender": "M"
+    },
+    {
+        "name": "Atya",
+        "spouse": null,
+        "children": null,
+        "parent": "Satya",
+        "gender": "F"
+    },
+    {
+        "name": "Yodhan",
+        "spouse": null,
+        "children": null,
+        "parent": "Dritha",
+        "gender": "M"
+    },
+    {
+        "name": "Laki",
+        "spouse": null,
+        "children": null,
+        "parent": "Jnki",
+        "gender": "M"
+    },
+    {
+        "name": "Lavnya",
+        "spouse": null,
+        "children": null,
+        "parent": "Jnki",
+        "gender": "F"
+    },
+    {
+        "name": "Vasa",
+        "spouse": null,
+        "children": null,
+        "parent": "Asva",
+        "gender": "M"
+    },
+    {
+        "name": "Kriya",
+        "spouse": null,
+        "children": null,
+        "parent": "Vyas",
+        "gender": "M"
+    },
+    {
+        "name": "Krithi",
+        "spouse": null,
+        "children": null,
+        "parent": "Vyas",
+        "gender": "F"
+    }
+]
