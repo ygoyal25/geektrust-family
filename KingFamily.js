@@ -8,8 +8,9 @@ function Family() {
     const kingFamily = new FamilyTree(kingShan);
 
     // Add Queen to king family
-    const queenAnga = new FamilyMember({ name: "Queen Anga", gender: "F" });
-    kingFamily.addQueen(queenAnga);
+    // const queenAnga = new FamilyMember({ name: "Queen Anga", gender: "F" });
+    const queenAnga = "Queen Anga"
+    kingShan.addSpouse(queenAnga);
 
     const children = [
         // King and Queen's Children
@@ -20,10 +21,10 @@ function Family() {
         { name: "Satya", gender: "F", mother: "Queen Anga", father: "King Shan" },
 
         // Chidren Getting Married
-        { name: "Chit", gender: "M", spouseName: "Amba", marriage: true },
-        { name: "Vich", gender: "M", spouseName: "Lika", marriage: true },
-        { name: "Aras", gender: "M", spouseName: "Chitra", marriage: true },
-        { name: "Satya", gender: "F", spouseName: "Vyan", marriage: true },
+        { name: "Chit", spouseName: "Amba", marriage: true },
+        { name: "Vich", spouseName: "Lika", marriage: true },
+        { name: "Aras", spouseName: "Chitra", marriage: true },
+        { name: "Satya", spouseName: "Vyan", marriage: true },
 
         // Add Next Generation
         { name: "Dritha", gender: "F", mother: "Amba", father: "Chit" }, 
@@ -38,10 +39,10 @@ function Family() {
         { name: "Atya", gender: "F", mother: "Satya", father: "Vyan" },
 
         // Next Gen Spouse
-        { name: "Dritha", gender: "F", spouseName: "Jaya", marriage: true },
-        { name: "Jnki", gender: "F", spouseName: "Arit", marriage: true },
-        { name: "Asva", gender: "M", spouseName: "Satvy", marriage: true },
-        { name: "Vyas", gender: "M", spouseName: "Krpi", marriage: true },
+        { name: "Dritha", spouseName: "Jaya", marriage: true },
+        { name: "Jnki", spouseName: "Arit", marriage: true },
+        { name: "Asva", spouseName: "Satvy", marriage: true },
+        { name: "Vyas", spouseName: "Krpi", marriage: true },
 
         // Add Next Gen
         { name: "Yodhan", gender: "M", mother: "Dritha", father: "Jaya" },
