@@ -1,3 +1,13 @@
+/** 
+ * @description This File contains code to create a new member in the family 
+ * @param name
+ * @param gender
+ * @param mother
+ * @param father
+ * @param spouse
+ * @param children
+ *
+*/
 function FamilyMember({ name, gender, mother = null, father = null }) {
     this.name = name;
     this.gender = gender;
@@ -13,14 +23,6 @@ FamilyMember.prototype.addSpouse = function(spouse) {
 
 FamilyMember.prototype.addChild = function(child) {
     this.children.push({ name: child.name, gender: child.gender });
-}
-
-FamilyMember.prototype.getFather = function() {
-    return this.father;
-}
-
-FamilyMember.prototype.getMother = function() {
-    return this.mother;
 }
 
 FamilyMember.prototype.getSons = function() {

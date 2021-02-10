@@ -1,1 +1,5 @@
-GET_RELATIONSHIP Kriya Maternal-Aunt
+ADD_CHILD Chitra Aria Female
+GET_RELATIONSHIP Aria Paternal-Aunt
+GET_RELATIONSHIP Lavnya Maternal-Uncle
+ADD_CHILD Asva Vani Female
+GET_RELATIONSHIP Vasa Siblings

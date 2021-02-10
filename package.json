@@ -1,0 +1,20 @@
+{
+  "name": "family",
+  "version": "1.0.0",
+  "description": "Family Tree Creation Using NodeJs",
+  "main": "geektrust.js",
+  "scripts": {
+    "start": "node geektrust",
+    "test": "jest"
+  },
+  "keywords": [
+    "NodeJs",
+    "Family",
+    "Geektrust"
+  ],
+  "author": "Yashendra Goyal",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

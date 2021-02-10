@@ -1,18 +1,7 @@
-// This file is used to create the initial family tree for King Shan
-const FamilyTree = require("./FamilyTree");
-const FamilyMember = require("./FamilyMember");
-
-function Family() {
-    // Create a Family with king shan
-    const kingShan = new FamilyMember({ name: "King Shan", gender: "M" });
-    const kingFamily = new FamilyTree(kingShan);
-
-    // Add Queen to king family
-    // const queenAnga = new FamilyMember({ name: "Queen Anga", gender: "F" });
-    const queenAnga = "Queen Anga"
-    kingShan.addSpouse(queenAnga);
-
-    const children = [
+module.exports = {
+    king: { name: "King Shan", gender: "M" },
+    queen: { name: "Queen Anga", gender: "F" },
+    children: [
         // King and Queen's Children
         { name: "Chit", gender: "M", mother: "Queen Anga", father: "King Shan" }, 
         { name: "Ish", gender: "M", mother: "Queen Anga", father: "King Shan" },
@@ -52,16 +41,4 @@ function Family() {
         { name: "Kriya", gender: "M", mother: "Krpi", father: "Vyas" },
         { name: "Krithi", gender: "F", mother: "Krpi", father: "Vyas" },
     ]
-
-    children.forEach(child => {
-        if (child.marriage) {
-            // const member = family.findMember(child.name);
-            kingFamily.memberWedding(child.name, child.spouseName);
-        } else {
-            kingFamily.addMember(child);
-        }
-    })
-    return kingFamily;
-}
-
-module.exports = Family;
+};
